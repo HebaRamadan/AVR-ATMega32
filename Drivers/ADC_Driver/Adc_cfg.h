@@ -9,13 +9,13 @@
 #ifndef ADC_CFG_H_
 #define ADC_CFG_H_
 
-#define ADC_u8AREF										1
-#define ADC_u8AVCC										2
-#define ADC_u8_2_56V								3
+#define ADC_u8AREF					   1
+#define ADC_u8AVCC					   2
+#define ADC_u8_2_56V				   3
 
 
-#define ADC_u8LEFT_ADJUST    0
-#define ADC_u8RIGHT_ADJUST	 	1
+#define ADC_u8LEFT_ADJUST              0
+#define ADC_u8RIGHT_ADJUST	       	   1
 
 
 #define ADC_u8TRIGGER_SOURCE_DISABLED					1
