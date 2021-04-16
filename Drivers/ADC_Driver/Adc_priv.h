@@ -13,10 +13,10 @@ void __vector_16 (void) __attribute__ ((signal,used, externally_visible));      
 
 #define ADMUX		(*(volatile Adc_ADMUX_Type	*)0x27)
 #define ADCSRA		(*(volatile Adc_ADCSRA_Type	*)0x26)
-#define ADCH			(*(volatile Adc_ADCH_Type		*)0x25)
-#define ADCL			(*(volatile Adc_ADCL_Type		*)0x24)
-#define SFIOR		(*(volatile Adc_SFIOR_Type		*)0x50)
-#define SREG			(*(volatile Status_SREG_Type	*)0x5F)
+#define ADCH		(*(volatile Adc_ADCH_Type	*)0x25)
+#define ADCL		(*(volatile Adc_ADCL_Type	*)0x24)
+#define SFIOR		(*(volatile Adc_SFIOR_Type	*)0x50)
+#define SREG		(*(volatile Status_SREG_Type*)0x5F)
 
 typedef union		Adc_ADMUX_Type   Adc_ADMUX_Type	;
 typedef union		Adc_ADCSRA_Type  Adc_ADCSRA_Type	;
