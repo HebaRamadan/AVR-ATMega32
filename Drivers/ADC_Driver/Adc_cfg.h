@@ -15,7 +15,7 @@
 
 
 #define ADC_u8LEFT_ADJUST              0
-#define ADC_u8RIGHT_ADJUST	       	   1
+#define ADC_u8RIGHT_ADJUST	       	    1
 
 
 #define ADC_u8TRIGGER_SOURCE_DISABLED					1
